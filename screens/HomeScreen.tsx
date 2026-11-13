@@ -9,7 +9,6 @@ const HomeScreen = ({navigation}: Props) => {
   return (
       <View style={styles.container}>
         <Text style={styles.text}>Welcome to the Home Screen!</Text>
-        {/*<Button title="Go to Second Screen" onPress={() => navigation.navigate('Second')} /> */}
       </View>
   );
 };

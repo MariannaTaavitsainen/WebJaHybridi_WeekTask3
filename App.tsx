@@ -7,7 +7,7 @@ import HomeScreen from './screens/HomeScreen';
 import SecondScreen from './screens/SecondScreen';
 import AppBar from './components/AppBar';
   
-import {RootStackParamList} from './types/navigation';
+import { RootStackParamList } from './types/navigation';
 
 const Stack = createNativeStackNavigator<RootStackParamList>(); 
 
